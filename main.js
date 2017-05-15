@@ -10,7 +10,7 @@ import SongDetailScreen from './screens/SongDetailScreen';
 
 const client = new ApolloClient({
   networkInterface: createNetworkInterface({
-    uri: 'graphql endpoint' }),
+    uri: 'graphcool endpoint url' }),
     dataIdFromObject: o => o.id,
   });
 
